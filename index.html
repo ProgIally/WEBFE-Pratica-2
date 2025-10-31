@@ -13,38 +13,23 @@
   <body>
     <a class="skip-link" href="#main">Ir para o conteúdo</a>
 
-    <header class="site-header" role="banner">
-      <div class="container header-inner">
-        <a
-          class="brand"
-          href="index.html"
-          aria-label="Salve Corações Inundados — Início"
-        >
-          <img
-            src="assets/images/logo.png"
-            alt="Logotipo Salve Corações Inundados"
-            class="logo"
-          />
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="Salve Corações Inundados" />
         </a>
 
-        <button
-          class="btn-hamburger"
-          aria-label="Abrir menu"
-          aria-expanded="false"
-          id="btn-menu"
-        >
-          <span class="hamburger-box"
-            ><span></span><span></span><span></span
-          ></span>
-        </button>
-
-        <nav id="main-nav" class="nav" aria-label="Navegação principal">
-          <ul class="nav-list">
-            <li><a href="index.html">Início</a></li>
+        <nav class="navbar" id="navbar">
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Início</a></li>
             <li><a href="projetos.html">Projetos</a></li>
             <li><a href="cadastro.html">Doar / Cadastrar</a></li>
           </ul>
         </nav>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+          ☰
+        </button>
       </div>
     </header>
 

@@ -101,3 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
     i.setAttribute("draggable", "false");
   });
 });
+document.getElementById("menu-toggle").addEventListener("click", function () {
+  document.getElementById("navbar").classList.toggle("open");
+});
