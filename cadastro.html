@@ -15,19 +15,28 @@
 
     <header class="site-header">
       <div class="container header-content">
-        <a href="index.html" class="logo">
+        <a
+          href="index.html"
+          class="logo"
+          aria-label="Salve Corações Inundados — voltar ao início"
+        >
           <img src="assets/images/logo.png" alt="Salve Corações Inundados" />
         </a>
 
-        <nav class="navbar" id="navbar">
+        <nav class="navbar" id="navbar" aria-label="Navegação principal">
           <ul class="nav-links">
-            <li><a href="index.html" class="active">Início</a></li>
+            <li><a href="index.html">Início</a></li>
             <li><a href="projetos.html">Projetos</a></li>
-            <li><a href="cadastro.html">Doar / Cadastrar</a></li>
+            <li><a href="cadastro.html" class="active">Doar / Cadastrar</a></li>
           </ul>
         </nav>
 
-        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
           ☰
         </button>
       </div>

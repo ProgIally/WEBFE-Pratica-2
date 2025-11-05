@@ -8,18 +8,23 @@
       name="description"
       content="Salve Corações Inundados: apoio a pessoas afetadas por desabamentos e inundações. Voluntariado, doações e transparência."
     />
-    <link rel="stylesheet" href="assets/images/css/style.css"
+    <!-- caminho conforme sua estrutura -->
+    <link rel="stylesheet" href="assets/images/css/style.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Ir para o conteúdo</a>
 
     <header class="site-header">
       <div class="container header-content">
-        <a href="index.html" class="logo">
+        <a
+          href="index.html"
+          class="logo"
+          aria-label="Salve Corações Inundados — voltar ao início"
+        >
           <img src="assets/images/logo.png" alt="Salve Corações Inundados" />
         </a>
 
-        <nav class="navbar" id="navbar">
+        <nav class="navbar" id="navbar" aria-label="Navegação principal">
           <ul class="nav-links">
             <li><a href="index.html" class="active">Início</a></li>
             <li><a href="projetos.html">Projetos</a></li>
@@ -27,7 +32,12 @@
           </ul>
         </nav>
 
-        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
           ☰
         </button>
       </div>
